@@ -32,7 +32,7 @@ body {
 .holidayCard {
     background-color: #FAEAB1;
     color: #1B4A07;
-    margin: 4rem 3rem;
+    margin-bottom: 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
     border: 6px solid #C58940;
@@ -53,6 +53,28 @@ body {
 }
 
 .holidayCard p {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.holidayCard h4 {
     font-size: 1rem;
     font-weight: 400;
+}
+
+.titleCool {
+    background-color: #FAEAB1;
+    border-bottom: 8px solid #C58940;
+    border-top: 8px solid #C58940;
+    margin-top: 3rem;
+}
+
+.titleCool h1 {
+    padding: 1rem;
+    color: #1B4A07;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+
 }
